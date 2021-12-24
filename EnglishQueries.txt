@@ -1,0 +1,26 @@
+Set 2.
+a) Retrieve the average ratings of the movies for each year from 2010 to 2015.
+Consider the movies having Drama, Horror, Sci-Fi or Thriller as one of their
+genres.
+Should 6 output rows, one for each year.
+start
+year YEARLY_AVG
+---------- ----------
+2010 ???
+2011 ???
+2012 ???
+
+b) Retrieve the average ratings of the movies by genre for each year during
+2010 and 2015 for each genre, Drama, Horror, Sci-Fi and Thriller.
+Should have 24 rows of output, for 6 years and 4 genres.
+start
+year GENRES YEARLY_AVG
+---------- ---------- --------------
+2010 Drama ???
+2010 Horror ???
+2010 Sci-Fi ???
+2010 Thriller ???
+2011 Drama ???
+2011 Horror ???
+2011 Sci-Fi ???
+2011 Thriller ???
